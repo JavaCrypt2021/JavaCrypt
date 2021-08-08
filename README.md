@@ -32,3 +32,20 @@ Sprints 3-(8/21/21 - 8/28/2021)
 
 3 Finish Front end // Add Additional Calls -> Code Review
 ********************************************
+
+Routes:
+-root
+\
+- index.js
+--DAOs
+---tickerCall.js
+---chartData.js
+--models
+---ticker.js // API data display
+---chart.js // chart.js plot
+--middleware
+---tickerCall.js
+--routes
+---app.js // using React to display the front-end
+---ticker.js
+---chart.js
