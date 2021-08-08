@@ -33,6 +33,15 @@ Sprints 3-(8/21/21 - 8/28/2021)
 3 Finish Front end // Add Additional Calls -> Code Review
 ********************************************
 
+Dependencies:
+React
+Express
+Nodemon
+Chart.js // third party framework for creating chart data
+CoinGecko // Cryptocurrency API callback
+
+********************************************
+
 Routes:
 -root
 \
