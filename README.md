@@ -38,6 +38,7 @@ React
 Express
 Nodemon
 Chart.js // third party framework for creating chart data
+Bootstrap 4
 CoinGecko // Cryptocurrency API callback
 
 ********************************************
