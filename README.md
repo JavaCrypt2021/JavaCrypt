@@ -37,9 +37,7 @@ Routes:
 -root
 \
 -index.js
-
 --DAOs
-
 ---tickerCall.js
 ---chartData.js
 --models
