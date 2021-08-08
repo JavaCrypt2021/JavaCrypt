@@ -36,8 +36,10 @@ Sprints 3-(8/21/21 - 8/28/2021)
 Routes:
 -root
 \
-- index.js
+-index.js
+
 --DAOs
+
 ---tickerCall.js
 ---chartData.js
 --models
