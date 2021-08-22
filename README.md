@@ -57,5 +57,20 @@ CoinGecko // Cryptocurrency API callback
 
 ## Routes
 
+// Login and Authentication Routes//
+- router.post("/")
+- router.post("/signup")
+- router.use(isLoggedIn)
+- router.post("/logout")
+- router.post("/password")
+
+// Cryptocurrency Data Routes //
+- router.get("/")
+- router.use(isLoggedIn)
+- router.post("/")
+- router.get("/:id)
+- router.put("/:id)
+- router.delete("/:id)
+
 ## TODO
 
