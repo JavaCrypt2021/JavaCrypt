@@ -57,7 +57,7 @@ CoinGecko // Cryptocurrency API callback
 
 ## Routes
 
-// Login and Authentication Routes//
+// Login and Authentication Routes //
 - router.post("/")
 - router.post("/signup")
 - router.use(isLoggedIn)
