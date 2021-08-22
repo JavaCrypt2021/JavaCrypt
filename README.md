@@ -27,22 +27,22 @@ Name, Logo, last price
 The App shall display market trends.
 on 1 day, 1 week, 1 month, 1 year
 
-We will be dividing the tasks into 3 sprints. 
-********************************************
+## Sprints 
+
 Sprints 1 - (8/07/21 - 8/14/2021)
 
 - [x] Set up API Key // Learn to Chart.js // Start Routing - > Code Review
 
 Sprints 2- (8/14/21 - 8/21/2021)
 
-- [ ] Add additional Crypto Currencies // Finish Backend - > Code Review
+- [x] Add additional Crypto Currencies // Finish Backend - > Code Review
 
 Sprints 3 - (8/21/21 - 8/28/2021)
 
 - [ ] Finish Front end // Add Additional Calls -> Code Review
-********************************************
 
-Dependencies:
+
+## Dependencies
 React
 Express
 Nodemon
@@ -50,9 +50,12 @@ Chart.js // third party framework for creating chart data
 Bootstrap 4
 CoinGecko // Cryptocurrency API callback
 
-********************************************
+## External Platforms
+- CoinGecko
+- Heroku
+- Github
 
-Routes:
+## Routes
 
 ## TODO
 
