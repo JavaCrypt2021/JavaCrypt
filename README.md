@@ -1,4 +1,13 @@
-README FOR CRYPTO API
+# JavaCrypt
+
+## What is JavaCrypt?
+
+JavaCrypt is an interactive and real-time cryptocurrency ticker that is used to display and plot cryptocurrency indexes.  By using [CoinGecko's API](https://www.coingecko.com/api/documentations/v3), we have been able to effectively GET prices, market caps, changes, and even gather median blockchain data.  With this data, we are able to display the fluctuation in a concise dashboard, alongside clickable functionality to plot certain data trends for various points of time.
+
+## Intersting, but what is a Cryptocurrency?
+
+Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have issued their own currencies, often called tokens, and these can be traded specifically for the good or service that the company provides. Think of them as you would arcade tokens or casino chips. You’ll need to exchange real currency for the cryptocurrency to access the good or service.  Cryptocurrencies work using a technology called blockchain. Blockchain is a decentralized technology spread across many computers that manages and records transactions. Part of the appeal of this technology is its security.  Detailed description credited to: [Nerdwallet](https://www.nerdwallet.com/article/investing/cryptocurrency-7-things-to-know).
+
 Objective: Create a ticker that will help plot Crypto currency market trends.
 
 Requirements:
