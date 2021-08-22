@@ -27,6 +27,18 @@ Name, Logo, last price
 The App shall display market trends.
 on 1 day, 1 week, 1 month, 1 year
 
+## Featured Coins
+- Bitcoin (BTC)
+- Ethereum (ETH)
+- Binance Coin (BNB)
+- Cardano (ADA)
+- Tether (USDT)
+- XRP (XRP)
+- Dogecoin (DOGE)
+- USD Coin (USDC)
+- Polkadot (DOT)
+- Solana (SOL)
+
 ## Sprints 
 
 Sprints 1 - (8/07/21 - 8/14/2021)
