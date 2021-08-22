@@ -31,15 +31,15 @@ We will be dividing the tasks into 3 sprints.
 ********************************************
 Sprints 1 - (8/07/21 - 8/14/2021)
 
-Set up API Key // Learn to Chart.js // Start Routing - > Code Review
+[x] Set up API Key // Learn to Chart.js // Start Routing - > Code Review
 
 Sprints 2- (8/14/21 - 8/21/2021)
 
-Add additional Crypto Currencies // Finish Backend - > Code Review
+[] Add additional Crypto Currencies // Finish Backend - > Code Review
 
-Sprints 3-(8/21/21 - 8/28/2021)
+Sprints 3 - (8/21/21 - 8/28/2021)
 
-3 Finish Front end // Add Additional Calls -> Code Review
+[] Finish Front end // Add Additional Calls -> Code Review
 ********************************************
 
 Dependencies:
@@ -53,18 +53,4 @@ CoinGecko // Cryptocurrency API callback
 ********************************************
 
 Routes:
--root
-\
--index.js
---DAOs
----tickerCall.js
----chartData.js
---models
----ticker.js // API data display
----chart.js // chart.js plot
---middleware
----tickerCall.js
---routes
----app.js // using React to display the front-end
----ticker.js
----chart.js
+
