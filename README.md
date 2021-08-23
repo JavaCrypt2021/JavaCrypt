@@ -72,13 +72,11 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 // Login and Authentication Routes //
 - router.post("/")
 - router.post("/signup")
-- router.use(isLoggedIn)
 - router.post("/logout")
 - router.post("/password")
 
 // Cryptocurrency Data Routes //
 - router.get("/")
-- router.use(isLoggedIn)
 - router.post("/")
 - router.get("/:id)
 - router.put("/:id)
