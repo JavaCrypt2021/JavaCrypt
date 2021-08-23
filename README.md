@@ -55,12 +55,14 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 
 
 ## Dependencies
-React
-Express
-Nodemon
-Chart.js // third party framework for creating chart data
-Bootstrap 4
-CoinGecko // Cryptocurrency API callback
+- Node.js
+- NPM
+- React.js
+- Express.js
+- Nodemon
+- Chart.js
+- CoinGecko API
+- bcrypt
 
 ## External Platforms
 - CoinGecko
