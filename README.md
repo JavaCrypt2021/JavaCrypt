@@ -86,7 +86,7 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 - Successfully plotted API data from React
 - Emulated static data from JSON coin API to routes
 - Built out login / authentication landing page
-- Reevaluating CoinGecko's API limitations, adjustment may be possibility
+- Reevaluating CoinGecko's API limitations for Node.js support, adjustment may be possibility
 - Updated Trello board to post snippets and improvements
 
 ## TODO
