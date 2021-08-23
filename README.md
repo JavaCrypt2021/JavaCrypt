@@ -82,5 +82,22 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 - router.put("/:id)
 - router.delete("/:id)
 
+## Deployment
+
+[Found here at Heroku](https://java-crypt.herokuapp.com/)
+
+## Updates
+
+- Successfully plotted API data from React
+- Emulated static data from JSON coin API to routes
+- Built out login / authentication landing page
+- Reevaluating CoinGecko's API limitations, adjustment may be possibility
+- Updated Trello board to post snippets and improvements
+
 ## TODO
 
+- Revisit static data vs. real-time data
+- Continue with frontend integration
+- Refactor more React plotting into Node.js routing
+- Complete design / layout of Chart.js data
+- Complete Week 3 Sprint requirements
