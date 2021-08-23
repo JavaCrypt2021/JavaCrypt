@@ -8,22 +8,17 @@ JavaCrypt, as our objective, is an interactive and real-time cryptocurrency tick
 
 Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have issued their own currencies, often called tokens, and these can be traded specifically for the good or service that the company provides. Think of them as you would arcade tokens or casino chips. You’ll need to exchange real currency for the cryptocurrency to access the good or service.  Cryptocurrencies work using a technology called blockchain. Blockchain is a decentralized technology spread across many computers that manages and records transactions. Part of the appeal of this technology is its security.  Detailed description credited to: [Nerdwallet](https://www.nerdwallet.com/article/investing/cryptocurrency-7-things-to-know).
 
-Requirements:
-The App shall call the API and retrieve last price.
---Retrieve a API Key from 3rd party
+##Requirements
 
-The App shall be able to compare last price with previous price.
---Store previous price before calling last price.
-
-The App shall display the last price to the user.
--- If Positive change, then green
---if negative change, then red
-
-The App front end shall display:
-Name, Logo, last price
-
-The App shall display market trends.
-on 1 day, 1 week, 1 month, 1 year
+- The App shall call the API and retrieve last price.
+- Retrieve a API Key from 3rd party
+- The App shall be able to compare last price with previous price.
+- Store previous price before calling last price.
+- The App shall display the last price to the user.
+- If Positive change, then green
+- If negative change, then red
+- The App front end shall display: Name, Logo, last price
+- The App shall display market trends: on 1 day, 1 week, 1 month, 1 year
 
 ## Featured Coins
 - Bitcoin (BTC)
