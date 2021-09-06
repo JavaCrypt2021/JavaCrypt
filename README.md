@@ -81,18 +81,7 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 
 [Found here at Heroku](https://java-crypt.herokuapp.com/)
 
-## Updates
+## Overview of Project
 
-- Successfully plotted API data from React
-- Emulated static data from JSON coin API to routes
-- Built out login / authentication landing page
-- Reevaluating CoinGecko's API limitations for Node.js support, adjustment may be possibility
-- Updated Trello board to post snippets and improvements
+Due to the nature of the project, it is rightful to assume that we may have bit off more than we can chew with the structure of the final project.  One of the largest tasks we faced was that the nature of retrieving data from a third-party API such as CoinGecko can be done and handled better through front-end fetch calls within React, making the documentation and instructions very difficult to access for Node.js routes.  Further more, using the GET method to call those respective Cryptocurrencies faced difficulty and clutter when trying to write such information at a fast speed to a MongoDB cluster.  It was a tough lesson that we had to overcome finding out how to make Node become responsive with the CoinGecko's API.  Another challenge we faced is integration with everyone's contribution to the project, as well as trying to connect the back and frontend with conflicting localhost ports.  However, using dependencies such as Chart.js and Axios created fantastic bootstrapped formatting to display a clean, yet, user friendly dashboard.  Having been able to do it differently (while focuing on the actual backend components per this course), we would have had more value being able to create a project that would enable users to collect and input their data via a POST routed system, similar to that of an input log styled app.  Not only would this solve the lack of routes to create, but it would have helped build a unique API rather than relying on the provided third party.  
 
-## TODO
-
-- Revisit static data vs. real-time data
-- Continue with frontend integration
-- Refactor more React plotting into Node.js routing
-- Complete design / layout of Chart.js data
-- Complete Week 3 Sprint requirements
