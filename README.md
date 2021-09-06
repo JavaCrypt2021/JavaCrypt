@@ -51,6 +51,7 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 - Node.js
 - NPM
 - React.js
+- React-router/DOM
 - Express.js
 - Nodemon
 - Chart.js
