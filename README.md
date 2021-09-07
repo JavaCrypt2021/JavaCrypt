@@ -57,6 +57,7 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 - Chart.js
 - CoinGecko API
 - bcrypt
+- CORS
 
 ## External Platforms
 - CoinGecko
