@@ -4,11 +4,19 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaCrypt2021/JavaCrypt"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/JavaCrypt2021/JavaCrypt",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
