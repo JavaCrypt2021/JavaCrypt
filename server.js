@@ -3,7 +3,8 @@ const cors = require("cors");
 const app = express();
 require("dotenv").config();
 const { MONGO_URI } = process.env;
-
+const routes = require("./app/routes");
+const index =  require("./app/routes/index");
 
 var corsOptions = {
   origin: "http://localhost:8081"
@@ -18,11 +19,15 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
+app.use(routes);
+
+app.use(index);
+
 const db = require("./app/models");
 const Role = db.role;
 
 db.mongoose
-  .connect(MONGO_URI, {
+  .connect(MONGO_URI || "mongodb://localhost/finalproject", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })

@@ -65,20 +65,37 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 - Heroku
 - Github
 
-## Routes
+### Here are the routes provided:
 
-// Login and Authentication Routes //
-- router.post("/")
-- router.post("/signup")
-- router.post("/logout")
-- router.post("/password")
+#### users:
+- Signup: `POST /login/signup`
+- Login: `POST /login`
+- Change password: `POST /login/password`(require authentication) 
+- Get users: `GET /login`(require authentication and authorization) 
+- Delete user: `DELETE /login/:id` (require authentication and authorization) 
 
-// Cryptocurrency Data Routes //
-- router.get("/")
-- router.post("/")
-- router.get("/:id)
-- router.put("/:id)
-- router.delete("/:id)
+#### accounts: (require  authentication)
+- Create account: `POST /accounts` 
+- Get user accounts: `GET /accounts` - user can get own accounts, admin can get all accounts
+- Get account by id: `GET /accounts/:id` - user can get own account, admin can get any account
+- Update account: `PUT /accounts/:id`
+- Delete account: `delete /accounts/:id` (require authorization)
+
+#### coins:
+- Get coins: `GET /coins`
+- Get coin by id: `GET /coins/:id/`
+- Create coin: `POST /coins` (require authentication and authorization)
+- Update coin: `PUT /coins/:id`(require authentication and authorization)
+- Delete coin: `DELETE /coins/:id` (require authentication and authorization)
+
+#### prices:
+- Get price data: `GET /prices`
+- Get price data by id: `GET /prices/:id/`
+- Get stats data by coin id and days: `GET /prices/stats/:coinId?days=`
+- Get price data by id and days: `GET /prices/trend/:id?days=`
+- Create price: `POST /prices` (require authentication and authorization)
+- Update price: `PUT /prices/:id` (require authentication and authorization)
+- Delete price: `DELETE /prices/:id` (require authentication and authorization)
 
 ## Deployment
 
