@@ -65,7 +65,13 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 - Heroku
 - Github
 
-### Here are the routes provided:
+## Routes
+
+#### Login and Authentication Routes 
+- router.post("/")
+- router.post("/signup")
+- router.post("/logout")
+- router.post("/password")
 
 #### users:
 - Signup: `POST /login/signup`
@@ -74,7 +80,7 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 - Get users: `GET /login`(require authentication and authorization) 
 - Delete user: `DELETE /login/:id` (require authentication and authorization) 
 
-#### accounts: (require  authentication)
+#### accounts: (require authentication)
 - Create account: `POST /accounts` 
 - Get user accounts: `GET /accounts` - user can get own accounts, admin can get all accounts
 - Get account by id: `GET /accounts/:id` - user can get own account, admin can get any account
