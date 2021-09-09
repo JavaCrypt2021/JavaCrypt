@@ -105,7 +105,7 @@ Sprints 3 - (8/21/21 - 8/28/2021)
 
 ## Deployment
 
-[Found here at Heroku](https://still-shore-17113.herokuapp.com/)
+[Found here at Heroku](https://java-crypt.herokuapp.com/)
 
 ## Overview of Project
 
